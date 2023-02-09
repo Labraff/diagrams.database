@@ -1,1 +1,69 @@
-<mxfile host="app.diagrams.net" modified="2023-02-09T03:29:01.882Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.8.13" etag="ZCCjfPmK4TjyRbA7VxQc" type="github"><diagram name="第 1 页" id="8PSfJCVUOewv3pro0tro">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-09T04:06:21.258Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="jzMr5lG-RW9ktt83Rs68" version="20.8.13" type="github">
+  <diagram name="第 1 页" id="8PSfJCVUOewv3pro0tro">
+    <mxGraphModel dx="1397" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BC7-vODCwmIqjM0puwEn-3" value="浏览器&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Client" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="200" width="100" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="BC7-vODCwmIqjM0puwEn-6" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="BC7-vODCwmIqjM0puwEn-3" target="BC7-vODCwmIqjM0puwEn-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="50" y="80" as="sourcePoint" />
+            <mxPoint x="210" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BC7-vODCwmIqjM0puwEn-7" value="客户端登陆：提交账号密码" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BC7-vODCwmIqjM0puwEn-6">
+          <mxGeometry x="-0.0865" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BC7-vODCwmIqjM0puwEn-20" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="BC7-vODCwmIqjM0puwEn-3" target="BC7-vODCwmIqjM0puwEn-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="50" y="220" as="sourcePoint" />
+            <mxPoint x="210" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BC7-vODCwmIqjM0puwEn-21" value="将&amp;nbsp;Token&amp;nbsp;写入&amp;nbsp;Authorization&amp;nbsp;请求头，发送请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BC7-vODCwmIqjM0puwEn-20">
+          <mxGeometry x="-0.0935" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BC7-vODCwmIqjM0puwEn-4" value="服务器&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="200" width="110" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="BC7-vODCwmIqjM0puwEn-16" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="BC7-vODCwmIqjM0puwEn-4" target="BC7-vODCwmIqjM0puwEn-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="60" y="150" as="sourcePoint" />
+            <mxPoint x="220" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BC7-vODCwmIqjM0puwEn-17" value="返回Token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BC7-vODCwmIqjM0puwEn-16">
+          <mxGeometry x="0.1379" y="-4" relative="1" as="geometry">
+            <mxPoint x="1" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BC7-vODCwmIqjM0puwEn-24" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="BC7-vODCwmIqjM0puwEn-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="50" y="302" as="sourcePoint" />
+            <mxPoint x="-310.5" y="302" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BC7-vODCwmIqjM0puwEn-25" value="返回内容" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BC7-vODCwmIqjM0puwEn-24">
+          <mxGeometry x="0.0863" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BC7-vODCwmIqjM0puwEn-14" value="验证账号密码，&lt;br&gt;通过后，将信息加密生成 Token&amp;nbsp;字符串" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="300" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BC7-vODCwmIqjM0puwEn-18" value="将Token存到本地" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="360" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BC7-vODCwmIqjM0puwEn-22" value="根据&amp;nbsp;Token&amp;nbsp;还原用户信息&lt;br&gt;认证用户并返回响应内容" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="440" width="210" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
